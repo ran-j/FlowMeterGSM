@@ -3,7 +3,6 @@
 #include <FlowMeter.h>
 #include <ArduinoJson.h>
 
-int tes = 0;
 int RX_PIN = 11;
 int TX_PIN = 10;
 int RST_PIN = 12;
