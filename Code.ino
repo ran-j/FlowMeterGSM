@@ -29,7 +29,7 @@ void Post(){
     
     sprintf(myJson,"%s %s %s %s",jsonInicio,meioJson,Meter.getCurrentFlowrate(),finalJ);
  
-    Result result = http.post("www.rannet.com.br/test", myJson, response);
+    Result result = http.post("www.rannet.com.br/postrannet", myJson, response);
 
     Serial.println(response);
 
